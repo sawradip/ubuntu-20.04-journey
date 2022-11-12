@@ -1,0 +1,386 @@
+<world>
+	<static>
+		<predicate name = "path">
+			<parameter value = "johnhouse"/> 
+			<parameter value = "vilage"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilage"/> 
+			<parameter value = "johnhouse"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "forest"/> 
+			<parameter value = "vilage"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilage"/> 
+			<parameter value = "forest"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "neighborhouse"/> 
+			<parameter value = "vilage"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilage"/> 
+			<parameter value = "neighborhouse"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "hospitaldoor"/> 
+			<parameter value = "vilage"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilage"/> 
+			<parameter value = "hospitaldoor"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "hospitaldoor"/> 
+			<parameter value = "hospital"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "hospital"/> 
+			<parameter value = "hospitaldoor"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "store"/> 
+			<parameter value = "vilage"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilage"/> 
+			<parameter value = "store"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilageislandbridge"/> 
+			<parameter value = "vilage"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilage"/> 
+			<parameter value = "vilageislandbridge"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "vilageislandbridge"/> 
+			<parameter value = "island"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "island"/> 
+			<parameter value = "vilageislandbridge"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "island"/> 
+			<parameter value = "islandwest"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "islandwest"/> 
+			<parameter value = "island"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "island"/> 
+			<parameter value = "islandeast"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "islandeast"/> 
+			<parameter value = "island"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "island"/> 
+			<parameter value = "islandmountainbridge"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "islandmountainbridge"/> 
+			<parameter value = "island"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "mountain"/> 
+			<parameter value = "islandmountainbridge"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "islandmountainbridge"/> 
+			<parameter value = "mountain"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "mountain"/> 
+			<parameter value = "mountainwest"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "mountainwest"/> 
+			<parameter value = "mountain"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "mountain"/> 
+			<parameter value = "mountaineast"/>  
+		</predicate>
+    <predicate name = "path">
+			<parameter value = "mountaineast"/> 
+			<parameter value = "mountain"/>  
+		</predicate>
+    <predicate name = "hero">
+			<parameter value = "john"/> 
+		</predicate>
+    <predicate name = "alive">
+			<parameter value = "john"/> 
+		</predicate>
+    <predicate name = "alive">
+			<parameter value = "anne"/> 
+		</predicate>
+    <predicate name = "alive">
+			<parameter value = "maggie"/> 
+		</predicate>
+    <predicate name = "alive">
+			<parameter value = "rick"/> 
+		</predicate>
+    <predicate name = "alive">
+			<parameter value = "bob"/> 
+		</predicate>
+    <predicate name = "alive">
+			<parameter value = "matt"/> 
+		</predicate>
+    <predicate name = "alive">
+			<parameter value = "robin"/> 
+		</predicate>
+    <predicate name = "healthy">
+			<parameter value = "john"/> 
+		</predicate>
+    <predicate name = "healthy">
+			<parameter value = "anne"/> 
+		</predicate>
+    <predicate name = "healthy">
+			<parameter value = "maggie"/> 
+		</predicate>
+    <predicate name = "healthy">
+			<parameter value = "rick"/> 
+		</predicate>
+    <predicate name = "healthy">
+			<parameter value = "bob"/> 
+		</predicate>
+    <predicate name = "healthy">
+			<parameter value = "matt"/> 
+		</predicate>
+    <predicate name = "healthy">
+			<parameter value = "robin"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "forest"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "vilage"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "johnhouse"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "neighborhouse"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "hospital"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "store"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "island"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "islandwest"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "islandeast"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "mountain"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "mountainwest"/> 
+		</predicate>
+    <predicate name = "open">
+			<parameter value = "mountaineast"/> 
+		</predicate>
+    <predicate name = "safe">
+			<parameter value = "johnhouse"/> 
+		</predicate>
+    <predicate name = "safe">
+			<parameter value = "neighborhouse"/> 
+		</predicate>
+    <predicate name = "safe">
+			<parameter value = "hospital"/> 
+		</predicate>
+    <predicate name = "safe">
+			<parameter value = "store"/> 
+		</predicate>
+    <predicate name = "at">
+			<parameter value = "john"/> 
+			<parameter value = "johnhouse"/>  
+		</predicate>
+    <predicate name = "at">
+			<parameter value = "anne"/> 
+			<parameter value = "johnhouse"/>  
+		</predicate>
+    <predicate name = "at">
+			<parameter value = "maggie"/> 
+			<parameter value = "johnhouse"/>  
+		</predicate>
+
+
+    <predicate name = "istool">
+			<parameter value = "toolkit1"/> 
+		</predicate>
+    <predicate name = "istool">
+			<parameter value = "toolkit2"/> 
+		</predicate>
+    <predicate name = "iswood">
+			<parameter value = "wood1"/> 
+		</predicate>
+    <predicate name = "iswood">
+			<parameter value = "wood2"/> 
+		</predicate>
+    <predicate name = "iswood">
+			<parameter value = "wood3"/> 
+		</predicate>
+    <predicate name = "iswood">
+			<parameter value = "wood4"/> 
+		</predicate>
+    <predicate name = "isbridge">
+			<parameter value = "vilageislandbridge"/> 
+		</predicate>
+    <predicate name = "isbridge">
+			<parameter value = "islandmountainbridge"/> 
+		</predicate>
+    <predicate name = "isantidote">
+			<parameter value = "antidote1"/> 
+		</predicate>
+    <predicate name = "isantidote">
+			<parameter value = "antidote2"/> 
+		</predicate>
+    <predicate name = "isantidote">
+			<parameter value = "antidote3"/> 
+		</predicate>
+    <predicate name = "isantidote">
+			<parameter value = "antidote4"/> 
+		</predicate>
+    <predicate name = "isantidote">
+			<parameter value = "antidote5"/> 
+		</predicate>
+    <predicate name = "isfood">
+			<parameter value = "food1"/> 
+		</predicate>
+    <predicate name = "isfood">
+			<parameter value = "food2"/> 
+		</predicate>
+    <predicate name = "isfood">
+			<parameter value = "food3"/> 
+		</predicate>
+    <predicate name = "isfood">
+			<parameter value = "food4"/> 
+		</predicate>
+    <predicate name = "isfood">
+			<parameter value = "food5"/> 
+		</predicate>
+    <predicate name = "at">
+			<parameter value = "food1"/> 
+			<parameter value = "mountainwest"/>  
+		</predicate>
+
+
+    <predicate name = "at">
+			<parameter value = "wood1"/> 
+			<parameter value = "forest"/>  
+		</predicate>
+
+    <predicate name = "at">
+			<parameter value = "hospitalkey"/> 
+			<parameter value = "forest"/>  
+		</predicate>
+    <predicate name = "at">
+			<parameter value = "antidote2"/> 
+			<parameter value = "hospital"/>  
+		</predicate>
+    <predicate name = "has">
+			<parameter value = "bob"/> 
+			<parameter value = "antidote3"/>  
+		</predicate>
+    <predicate name = "iskey">
+			<parameter value = "hospitalkey"/> 
+			<parameter value = "hospitaldoor"/>  
+		</predicate>
+	</static>
+	<objects>
+		<object type="character" name = "john"/>
+		<object type="character" name = "anne"/>
+		<object type="character" name = "maggie"/>
+		<object type="character" name = "rick"/>
+		<object type="character" name = "bob"/>
+		<object type="character" name = "matt"/>
+		<object type="character" name = "robin"/>
+		<object type="location" name = "forest"/>
+		<object type="location" name = "vilage"/>
+		<object type="location" name = "johnhouse"/>
+		<object type="location" name = "neighborhouse"/>
+		<object type="location" name = "hospital"/>
+		<object type="location" name = "hospitaldoor"/>
+		<object type="location" name = "store"/>
+		<object type="location" name = "vilageislandbridge"/>
+		<object type="location" name = "island"/>
+		<object type="location" name = "islandwest"/>
+		<object type="location" name = "islandeast"/>
+		<object type="location" name = "islandmountainbridge"/>
+		<object type="location" name = "mountain"/>
+		<object type="location" name = "mountainwest"/>
+		<object type="location" name = "mountaineast"/>
+		<object type="item" name = "antidote1"/>
+		<object type="item" name = "antidote2"/>
+		<object type="item" name = "antidote3"/>
+		<object type="item" name = "antidote4"/>
+		<object type="item" name = "antidote5"/>
+		<object type="item" name = "wood1"/>
+		<object type="item" name = "wood2"/>
+		<object type="item" name = "wood3"/>
+		<object type="item" name = "wood4"/>
+		<object type="item" name = "hospitalkey"/>
+		<object type="item" name = "toolkit1"/>
+		<object type="item" name = "toolkit2"/>
+		<object type="item" name = "food1"/>
+		<object type="item" name = "food2"/>
+		<object type="item" name = "food3"/>
+		<object type="item" name = "food4"/>
+		<object type="item" name = "food5"/>
+		<object type="enemy" name = "zombie"/>
+		<object type="bigenemy" name = "bigzombie"/>
+	</objects>
+	<predicates>
+		<predicate name = "at" initialstate = "true" goalstate = "true">
+			<parameter type = "character" unique = "true"/> 
+			<parameter type = "location"/> 
+		</predicate>
+		<predicate name = "at" initialstate = "true" goalstate = "true">
+			<parameter type = "item" unique = "true"/> 
+			<parameter type = "location"/> 
+		</predicate>
+		<predicate name = "has" initialstate = "true" goalstate = "true">
+			<parameter type = "character"/> 
+			<parameter type = "item" unique = "true"/> 
+		</predicate>
+		<predicate name = "safe" initialstate = "true" goalstate = "false">
+			<parameter type = "location"/> 
+		</predicate>
+    <predicate name = "cured" initialstate = "true" goalstate = "true">
+			<parameter type = "character"/> 
+		</predicate>
+    <predicate name = "fed" initialstate = "true" goalstate = "true">
+			<parameter type = "character"/> 
+		</predicate>
+    <predicate name = "healthy" initialstate = "true" goalstate = "true">
+			<parameter type = "character"/> 
+		</predicate>
+	</predicates>
+	<events>
+		<event name = "go" tension = "="/>
+		<event name = "get" tension = "+"/>
+		<event name = "ask" tension = "+"/>
+		<event name = "give" tension = "+"/>
+		<event name = "fixbridge" tension = "+"/>
+		<event name = "opendoor" tension = "+"/>
+		<event name = "cure" tension = "-"/>
+		<event name = "feed" tension = "-"/>
+		<event name = "kill" tension = "+"/>
+		<event name = "attack" tension = "+"/>
+		<event name = "starve" tension = "+"/>
+	</events>
+</world>
